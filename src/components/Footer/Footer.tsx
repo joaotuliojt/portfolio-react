@@ -14,7 +14,7 @@ export function Footer(){
         <span>Tulio</span>
       </a>
       <div>
-        <p>Este site foi feito com <img src={reactIcon}/> e muito ❤️</p>
+        <p>Este site foi feito com <img src={reactIcon}/> e muito <span>❤️</span></p>
       </div>
 
       <div className="social-media">

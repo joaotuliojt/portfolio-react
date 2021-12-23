@@ -31,7 +31,8 @@ export const Container = styled.footer`
     justify-content: space-between;
     gap: 1rem;
 
-    img{
+    img,span{
+      font-size: 3rem;
       width: 3rem;
     }
   }
@@ -51,5 +52,11 @@ export const Container = styled.footer`
     flex-direction: column;
     gap: 2rem;
     text-align: center;
+  }
+  @media(max-width: 600px){
+    padding: 4rem 1rem;
+    p{
+      font-size: 1.2rem;
+    }
   }
 `

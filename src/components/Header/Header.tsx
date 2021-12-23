@@ -6,7 +6,9 @@ import { useState } from "react"
 import Curriculo from "../../assets/CV_JoaoTulio.pdf"
 export function Header(){
   const [isActive, setActive] = useState(false);
-  
+  function closeMenu(){
+    setActive(false);
+  }
   return(
     <Container>
         <Router>
@@ -16,10 +18,10 @@ export function Header(){
           </HashLink>
 
           <nav className={isActive ? 'active' : ''}>
-            <NavHashLink smooth to="#home" >Home</NavHashLink>
-            <NavHashLink smooth to="#sobre">Sobre mim</NavHashLink>
-            <NavHashLink smooth to="#portfolio">Portfólio</NavHashLink>
-            <NavHashLink smooth to="#contato">Contato</NavHashLink>
+            <NavHashLink smooth to="#home" onClick={closeMenu}>Home</NavHashLink>
+            <NavHashLink smooth to="#sobre" onClick={closeMenu}>Sobre mim</NavHashLink>
+            <NavHashLink smooth to="#portfolio" onClick={closeMenu}>Portfólio</NavHashLink>
+            <NavHashLink smooth to="#contato" onClick={closeMenu}>Contato</NavHashLink>
             <a href={Curriculo} download className="button">CV</a>
           </nav>
 

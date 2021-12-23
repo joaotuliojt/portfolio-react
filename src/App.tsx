@@ -8,7 +8,6 @@ function App() {
 
   return (
     <>
-
       <GlobalStyle></GlobalStyle>
       <Header></Header>
       <Main></Main>
