@@ -8,7 +8,7 @@ import discordIcon from "../../assets/discord.png";
 
 export function Footer(){
   return(
-    <Container>
+    <Container className="footer">
       <a href="/" className="logo">
         <span>J</span>
         <span>Tulio</span>

@@ -15,6 +15,7 @@ export const Container = styled.section`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
+    padding: 1rem;
     overflow: hidden;
 
     .project{
@@ -25,6 +26,7 @@ export const Container = styled.section`
       display: flex;
       flex-direction: column;
       height: 100%;
+      color: #FFF;
       &:hover{
         transform: translateY(-5px);
         background-color: var(--pink);
