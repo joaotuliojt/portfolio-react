@@ -158,8 +158,10 @@ input:checked + label:after {
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: var(--pink);
-
+      background-color: var(--green);
+      a.button{
+        background-color: var(--pink);
+      }
       &.active{
         opacity: 1;
         visibility: visible;
