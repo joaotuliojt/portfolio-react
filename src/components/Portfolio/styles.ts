@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.section`
-  margin-top: 20rem;
+  margin-top: 15rem;
 
   h2{
     text-align: center;
