@@ -53,3 +53,16 @@ export const Container = styled.div`
     }
   }
 `
+
+
+export const ContainerSucces = styled.div`
+  margin-top: 10rem;
+  text-align: center;
+
+  button{
+    padding: 1rem;
+    margin-top: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+`
