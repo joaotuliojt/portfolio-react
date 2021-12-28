@@ -8,7 +8,7 @@ export function Form(){
   
   return(
     <Container>
-      <h2>Entre em contato a partir do formluário abaixo</h2>
+      <h2>Entre em contato a partir do formulário abaixo</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
