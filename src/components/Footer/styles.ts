@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   background-color: #2b2b2b;
-  padding: 6rem 10rem;
-  margin-top: 20rem;
+  padding: 3rem 15rem;
+  margin-top: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
