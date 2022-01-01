@@ -107,6 +107,11 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  button:disabled, .button:disabled{
+    filter: brightness(0.8);
+    cursor: not-allowed;
+  }
+
 
   .logo{
     font-size: 3rem;
