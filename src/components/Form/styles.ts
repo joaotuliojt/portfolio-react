@@ -34,6 +34,7 @@ export const Container = styled.div`
     textarea{
       height: 20rem;
       overflow-y: auto;
+      resize: none;
     }
 
     button{
@@ -60,9 +61,11 @@ export const ContainerSucces = styled.div`
   text-align: center;
 
   button{
+    border-radius: 0.6rem;
     padding: 1rem;
     margin-top: 0.8rem;
     text-transform: uppercase;
     text-align: center;
+    color: #fbfbfb;
   }
 `
