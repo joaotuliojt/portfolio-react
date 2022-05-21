@@ -1,4 +1,4 @@
-import { Container, ContainerSucces } from './styles'
+import { Container, ContainerSuccess } from './styles'
 import { useForm, ValidationError } from '@formspree/react'
 import { toast, ToastContainer } from 'react-toastify'
 import ReCAPTCHA from 'react-google-recaptcha'
@@ -33,7 +33,7 @@ export function Form() {
   })
   if (state.succeeded) {
     return (
-      <ContainerSucces>
+      <ContainerSuccess>
         <h3>Obrigado por entrar em contato!</h3>
         <button
           onClick={() => {
@@ -43,7 +43,7 @@ export function Form() {
           Voltar ao topo
         </button>
         <ToastContainer />
-      </ContainerSucces>
+      </ContainerSuccess>
     )
   }
 
