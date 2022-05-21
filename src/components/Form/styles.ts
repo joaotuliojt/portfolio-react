@@ -56,7 +56,7 @@ export const Container = styled.div`
 `
 
 
-export const ContainerSucces = styled.div`
+export const ContainerSuccess = styled.div`
   margin-top: 10rem;
   text-align: center;
 
